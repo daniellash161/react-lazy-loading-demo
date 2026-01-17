@@ -4,7 +4,7 @@ const HeavyComponent: React.FC = () => {
   return (
     <div style={{ 
       padding: '20px', 
-      border: '2px solid #646cff', 
+      border: '2px solid #6369e4', 
       borderRadius: '12px',
       marginTop: '20px',
       backgroundColor: '#f0f0f0',

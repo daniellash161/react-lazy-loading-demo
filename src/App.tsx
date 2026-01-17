@@ -10,12 +10,12 @@ const App: React.FC = () => {
 
   return (
     <div className="App">
-      <h1>דמו Lazy Loading & Code Splitting</h1>
+      <h1> Lazy Loading & Code Splitting</h1>
       
       <div className="card">
         {/* לחיצה על הכפתור תשנה את ה-State ותפעיל את הטעינה */}
         <button onClick={() => setShow(true)}>
-          טען רכיב כבד (Dynamic Import)
+         Load a heavy component (Dynamic Import)
         </button>
       </div>
 

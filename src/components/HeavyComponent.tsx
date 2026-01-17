@@ -1,6 +1,5 @@
 import React from 'react';
 
-// רכיב פונקציונלי ב-TypeScript
 const HeavyComponent: React.FC = () => {
   return (
     <div style={{ 
@@ -9,13 +8,13 @@ const HeavyComponent: React.FC = () => {
       borderRadius: '12px',
       marginTop: '20px',
       backgroundColor: '#f0f0f0',
-      color: '#333'
+      color: '#333',
+      textAlign: 'left' 
     }}>
-      <h2>שלום! אני רכיב שנטען בטעינה עצלה 🚀</h2>
-      <p>הקוד שלי הורד לדפדפן רק ברגע שלחצת על הכפתור.</p>
+      <h2>Hello! I'm a Lazy-Loaded Component 🚀</h2>
+      <p>My code was downloaded to the browser only the moment you clicked the button.</p>
     </div>
   );
 };
 
-// חובה להשתמש ב-default export כדי ש-React.lazy יוכל לזהות את הרכיב [cite: 101]
 export default HeavyComponent;
